@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta chasrset="UTF-8"/>
+        <meta name="description" content="Espacio dugital para el cultivo, aplicando tecnologia para controlar parametros como la humedad y temperatura"/>
+        <meta name="robots" content="index, follow"/>
+        <title>BluntDoor</title>
+        <meta name="viewport" content="width=device-width, inictial-scale=1.0"/>
+        <link rel="stylesheet" href="./estilos2.css"/>
+    </head>
+    <body>
+        <header>
+            <h1 class="box">Bluntdoor</h1>
+            <nav></nav>
+        </header>
+        <main>
+            <form action="">
+                <ul>
+                    <li>
+                        <form>
+                            <label for="temperatura">
+                                <span>Ingrese la temperatura</span>
+                                <input type="text" style="font-size: large;" name="temperatura" id="temperaturaL" placeholder="temperatura">
+                                
+                            </label>
+                        </form> 
+                        <div id="res_temperatura"></div>   
+                    </li>
+                    <li>
+                        <form>    
+                            <label for="humedadAire"class="forms">
+                                <span>Ingrese la humedad del aire</span>
+                                <input style="font-size: large;" type="text" name="humedadAire" id="humedadAire" placeholder="Humedad del aire"> 
+                                <div id="res_humedadAire"></div>
+                            </label>
+                        </form>
+                    </li>
+                    <li>    
+                        <form>   
+                            <label for="humedadTierra"class="forms">
+                                <span>Ingrese la humedad de la tierra</span>
+                                <input type="text" name="humedadTierra" id="humedadTierra" placeholder="humedad de la tierra" style="font-size: large;">          
+                                <div id="res_humedadTierra"></div>
+                            </label>
+                        </form>
+                    </li>
+                    <li>
+                        <form>   
+                            <label for="Luz" class="forms">
+                                <span>Ingrese la energia luminica del invernadero</span>
+                                <input type="text" name="Luz" id="Luz" placeholder="energia" style="font-size: large;">        
+                                <div id="res_luz"></div>
+                            </label>
+                        </form> 
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+    
+         
+         <a href="./bluntdoor.html"><input type="button" value="revisar" style="font-size: large;"></a>        </main>
+      
+        </main>
+         <footer>
+            <img src="./Bluntdoor.png" alt="logo proyecto"/>
+        </footer>
+        <script src="./js.js"></script>
+    </body>
+
+</html>
